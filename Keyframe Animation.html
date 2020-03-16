@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style> 
+.ani1 {
+    width: 500px;
+    height: 250px;
+    position: relative;
+    -webkit-animation: mymove 2s ease-in; /* Safari 4.0 - 8.0 */
+    animation: mymove 2s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes mymove {
+    from {left: 0px; top: 0px}
+    to {left: 50%; top: 299px}
+}
+.ani2 {
+    width: 500px;
+    height: 250px;
+    position: relative;
+    -webkit-animation: mymove2 2s ease-in; /* Safari 4.0 - 8.0 */
+    animation: mymove2 2s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes mymove2 {
+    from {left: 110px; top: 200px}
+    to {left: -394px; top: 0px}
+}
+.ani3 {
+    width: 500px;
+    height: 250px;
+    position: relative;
+    -webkit-animation: mymove3 2s ease-in; /* Safari 4.0 - 8.0 */
+    animation: mymove3 2s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes mymove3 {
+    from {left: 0px; top: 200px}
+    to {left: 50%; top: -255px}
+}
+.ani4 {
+    width: 500px;
+    height: 250px;
+    position: relative;
+    -webkit-animation: mymove4 2s ease-in; /* Safari 4.0 - 8.0 */
+    animation: mymove4 2s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes mymove4 {
+    from {left: 110px; top: -200px}
+    to {left: -393px; top: 46px}
+}
+.ani5 {
+    width: 500px;
+    height: 250px;
+    position: relative;
+    -webkit-animation: mymove5 2s ease-in; /* Safari 4.0 - 8.0 */
+    animation: mymove5 2s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes mymove5 {
+    from {left: 0px; top: 0px; visibility: hidden;}
+    to {left: 29%; top: -362px}
+}
+</style>
+<body>
+
+
+<img src="img/big1.jpg" class="ani1">
+<img src="img/big2.jpg" class="ani2">
+<img src="img/big3.jpg" class="ani3">
+<img src="img/big4.jpg" class="ani4">
+<img src="img/big5.jpg" class="ani5">
+
+    
+</body>
+</html>
